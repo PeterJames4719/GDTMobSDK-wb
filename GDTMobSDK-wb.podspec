@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GDTMobSDK-wb'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of GDTMobSDK-wb.'
+  s.version          = '1.0.0'
+  s.summary          = 'GDTMobSDK for wb'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,13 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'GDTMobSDK-wb/Classes/**/*'
+  s.source_files = 'GDTMobSDK-wb/Classes/*.{h,m}'
+  s.vendored_libraries = 'GDTMobSDK-wb/Classes/libGDTMobSDK.a'
+  s.libraries = 'xml2', 'z'
+  s.frameworks = 'SystemConfiguration', 'Security', 'WebKit', 'CoreLocation', 'CoreTelephony', 'AdSupport', 'CoreGraphics'
   
-  # s.resource_bundles = {
-  #   'GDTMobSDK-wb' => ['GDTMobSDK-wb/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -1,0 +1,1 @@
+../../../../../GDTMobSDK-wb/Classes/GDTRewardVideoAdNetworkConnectorProtocol.h

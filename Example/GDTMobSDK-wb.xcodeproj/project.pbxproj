@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DCB65741FDAE02B1784A7D5 /* libPods-GDTMobSDK-wb_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF8F7AAAD5D5946E88AE781 /* libPods-GDTMobSDK-wb_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		B6C3EC14970FF50ACD706EF7 /* Pods_GDTMobSDK_wb_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1EED14BEF72F3489DF1C449 /* Pods_GDTMobSDK_wb_Example.framework */; };
-		BEA9691ADB755E6537A83C55 /* Pods_GDTMobSDK_wb_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C65D4E3A2C8A8AE89C22F3 /* Pods_GDTMobSDK_wb_Tests.framework */; };
+		A90D7E5BB80EACBD999294B4 /* libPods-GDTMobSDK-wb_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5912E457945A67E1058B400A /* libPods-GDTMobSDK-wb_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AF8F7AAAD5D5946E88AE781 /* libPods-GDTMobSDK-wb_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GDTMobSDK-wb_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D53C1725D47BF4D23787A9A /* Pods-GDTMobSDK-wb_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDTMobSDK-wb_Tests.release.xcconfig"; path = "Target Support Files/Pods-GDTMobSDK-wb_Tests/Pods-GDTMobSDK-wb_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		263EB77954F9FE89DE823AF7 /* Pods-GDTMobSDK-wb_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDTMobSDK-wb_Example.release.xcconfig"; path = "Target Support Files/Pods-GDTMobSDK-wb_Example/Pods-GDTMobSDK-wb_Example.release.xcconfig"; sourceTree = "<group>"; };
 		53562A6426EE85DD499B560F /* Pods-GDTMobSDK-wb_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDTMobSDK-wb_Example.debug.xcconfig"; path = "Target Support Files/Pods-GDTMobSDK-wb_Example/Pods-GDTMobSDK-wb_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		55F1608862C2A87DE65B0D42 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		55F1608862C2A87DE65B0D42 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5912E457945A67E1058B400A /* libPods-GDTMobSDK-wb_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GDTMobSDK-wb_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C9A40E1607D377E6D2E005F /* Pods-GDTMobSDK-wb_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDTMobSDK-wb_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GDTMobSDK-wb_Tests/Pods-GDTMobSDK-wb_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GDTMobSDK-wb_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GDTMobSDK-wb_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,11 +64,9 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		833D74729B4A968A8364C3D8 /* GDTMobSDK-wb.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "GDTMobSDK-wb.podspec"; path = "../GDTMobSDK-wb.podspec"; sourceTree = "<group>"; };
+		833D74729B4A968A8364C3D8 /* GDTMobSDK-wb.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "GDTMobSDK-wb.podspec"; path = "../GDTMobSDK-wb.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C2C65D4E3A2C8A8AE89C22F3 /* Pods_GDTMobSDK_wb_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDTMobSDK_wb_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C32E463046689CA1B5363C6F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F1EED14BEF72F3489DF1C449 /* Pods_GDTMobSDK_wb_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDTMobSDK_wb_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32E463046689CA1B5363C6F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				B6C3EC14970FF50ACD706EF7 /* Pods_GDTMobSDK_wb_Example.framework in Frameworks */,
+				3DCB65741FDAE02B1784A7D5 /* libPods-GDTMobSDK-wb_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				BEA9691ADB755E6537A83C55 /* Pods_GDTMobSDK_wb_Tests.framework in Frameworks */,
+				A90D7E5BB80EACBD999294B4 /* libPods-GDTMobSDK-wb_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				F1EED14BEF72F3489DF1C449 /* Pods_GDTMobSDK_wb_Example.framework */,
-				C2C65D4E3A2C8A8AE89C22F3 /* Pods_GDTMobSDK_wb_Tests.framework */,
+				0AF8F7AAAD5D5946E88AE781 /* libPods-GDTMobSDK-wb_Example.a */,
+				5912E457945A67E1058B400A /* libPods-GDTMobSDK-wb_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,7 +193,6 @@
 				5C9A40E1607D377E6D2E005F /* Pods-GDTMobSDK-wb_Tests.debug.xcconfig */,
 				0D53C1725D47BF4D23787A9A /* Pods-GDTMobSDK-wb_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				80CEB265C7798966A80A2DDD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +256,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -337,24 +336,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		80CEB265C7798966A80A2DDD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GDTMobSDK-wb_Example/Pods-GDTMobSDK-wb_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GDTMobSDK-wb/GDTMobSDK_wb.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GDTMobSDK_wb.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GDTMobSDK-wb_Example/Pods-GDTMobSDK-wb_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

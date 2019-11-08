@@ -1,0 +1,6 @@
+framework module GDTMobSDK_wb {
+  umbrella header "GDTMobSDK-wb-umbrella.h"
+
+  export *
+  module * { export * }
+}

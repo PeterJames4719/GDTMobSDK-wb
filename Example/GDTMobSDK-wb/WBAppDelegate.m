@@ -7,12 +7,19 @@
 //
 
 #import "WBAppDelegate.h"
+#import <GDTSDKConfig.h>
+#import <GDTRewardVideoAd.h>
 
 @implementation WBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSString *sdkVersion = [GDTSDKConfig sdkVersion];
+    NSLog(@"sdkVersion:%@", sdkVersion);
+    
+    GDTRewardVideoAd *r = [[GDTRewardVideoAd alloc] initWithAppId:@"" placementId:@""];
+    
     return YES;
 }
 
